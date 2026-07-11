@@ -1,8 +1,10 @@
 import React from 'react'
+import Navigation from './Navigation'
 
 const AddCourse = () => {
   return (
     <div>
+        <Navigation />
         <h1 className="text-center">UPLOAD COURSE DETAILS</h1>
 
 <div className="container">

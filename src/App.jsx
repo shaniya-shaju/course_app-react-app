@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import AddCourse from './Components/AddCourse'
 import ViewCourse from './Components/ViewCourse'
+import Navigation from './Components/Navigation'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
       <AddCourse />
       <ViewCourse />
+      
     </>
   )
 }
